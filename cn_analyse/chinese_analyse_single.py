@@ -1,6 +1,4 @@
 #中文情感分析系统（单句查看）
-
-
 from snownlp import SnowNLP
 
 x=1

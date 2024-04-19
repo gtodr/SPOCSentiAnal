@@ -1,6 +1,4 @@
 #中文情感分析系统
-
-
 from snownlp import SnowNLP
 
 # 消极的评论列表
@@ -9,7 +7,7 @@ negativeList = []
 positiveList = []
 
 # 打开文本
-with open("chinese.txt", "r", encoding="utf-8") as file:
+with open("./data/comments_cn.txt", "r", encoding="utf-8") as file:
     text = file.read()
     # 使用 split() 方法按换行符分割文本
     commentList = text.split("\n")
